@@ -1,0 +1,37 @@
+<p>获取或设置命令栏控件的标题文字。可读写。</p>
+<figure>
+    <table>
+        <thead>
+            <tr>
+                <th>示例代码复制</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>/*\n本示例在自定义命令栏中添加一个带拼写检查按钮图标的命令栏控件，然后将其标题设置为“Spelling checker”。\n*/\n\nfunction
+                        test()\n{\n\tlet myBar = Application.ActiveDocument.CommandBars.Add(\&quot;Custom\&quot;,
+                        Application.Enum.msoBarTop, true)\n\tmyBar.Visible = true \n\tlet myControl =
+                        myBar.Controls.Add(Application.Enum.msoControlButton, 2)\n\tmyControl.DescriptionText =
+                        \&quot;Starts the spelling checker\&quot;\n \tmyControl.Caption = \&quot;Spelling
+                        checker\&quot;\n}</code></td>
+            </tr>
+        </tbody>
+    </table>
+</figure>
+
+
+<p><span>获取或设置命令栏控件的标题文字。可读写。</span> </p>
+<div id=\"vstable\">
+    <table width=\"100%\">
+        <tbody>
+            <tr>
+                <th>示例代码<span>复制</span></th>
+            </tr>
+            <tr>
+                <td>
+                    <pre><code><span class=\"hljs-comment\">/*\n本示例在自定义命令栏中添加一个带拼写检查按钮图标的命令栏控件，然后将其标题设置为“Spelling checker”。\n*/</span>\n\n<span class=\"hljs-keyword\">function</span> <span class=\"hljs-title function_\">test</span>(<span class=\"hljs-params\"></span>)\n{\n\t<span class=\"hljs-keyword\">let</span> myBar = <span class=\"hljs-title class_\">Application</span>.<span class=\"hljs-property\">ActiveDocument</span>.<span class=\"hljs-property\">CommandBars</span>.<span class=\"hljs-title class_\">Add</span>(<span class=\"hljs-string\">\"Custom\"</span>, Application.Enum.msoBarTop, <span class=\"hljs-literal\">true</span>)\n\tmyBar.<span class=\"hljs-property\">Visible</span> = <span class=\"hljs-literal\">true</span> \n\t<span class=\"hljs-keyword\">let</span> myControl = myBar.<span class=\"hljs-property\">Controls</span>.<span class=\"hljs-title class_\">Add</span>(Application.Enum.msoControlButton, <span class=\"hljs-number\">2</span>)\n\tmyControl.<span class=\"hljs-property\">DescriptionText</span> = <span class=\"hljs-string\">\"Starts the spelling checker\"</span>\n \tmyControl.<span class=\"hljs-property\">Caption</span> = <span class=\"hljs-string\">\"Spelling checker\"</span>\n}</code></pre>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html dir="ltr" xmlns:MSHelp="urn:schemas-microsoft-com:mshelp">
+
+<head>
+	<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=8">
+
+	<title>对象</title>
+	<link rel="stylesheet" type="text/css" href="css/ont.css">
+	<link rel="stylesheet" type="text/css" href="css/contentHXS.css">
+	
+	<!-- 引入高亮插件 -->
+	<link href="plugins/highlight/styles/a11y-light.min.css" rel="stylesheet">
+
+	<!-- 引入初始化js -->
+	<script type="text/javascript" src="js/filldata.js"></script>
+
+	<!-- 引进消息弹框 -->
+	<link href="css/element.css" rel="stylesheet">
+	<script type="text/javascript" src="js/element/message.js"></script>
+	
+	<script>
+		var objectData = undefined
+		var objectExtData = {}
+		var objectAllData = undefined
+		function backToTop() {
+			window.scrollTo({
+        		top:0,
+        		behavior:'auto'
+    		})
+		}
+
+		function backToMember() {
+			let eleTitle = document.getElementById('nsrTitle');
+			if (eleTitle) {
+				let title = eleTitle.innerText;
+				let objName = title.substring(0,title.length - 3);
+				let member = document.getElementById(`jsMember_${objName}`);
+				if (member) {
+					member.scrollIntoView(true);
+				}
+			}
+		}
+
+		/* 
+			将代码复制到粘贴板上
+		*/
+		function copyCode(ele) {
+			let content = ele.parentNode.parentNode.parentNode.getElementsByTagName("code")[0].innerText;
+			var isCopyOk = copyText(content);
+			if (isCopyOk) {
+				window.$message.success("复制成功");
+			} else {
+				console.error("复制失败");
+			}
+		}
+
+		function copyText(content) {
+			let input = document.createElement("textarea");
+			input.setAttribute("readonly", "readonly");
+			input.value = content;
+			document.body.appendChild(input);
+			input.select();
+			let isCopyOk = document.execCommand("copy");
+			document.body.removeChild(input);
+			return isCopyOk;
+		}
+	</script>
+</head>
+
+<body class="clientViewer">
+	<script>
+		originalOnload = window.onload;
+		if (originalOnload == null) {
+			window.onload = function () {
+				parent.contentLoaded = true;
+				parent.GetJSData(location.href, function (jsData) {
+					objectAllData = jsData;
+					InitData(jsData, FillObject);
+				})
+			};
+		} else {
+			window.onload = function () {
+				originalOnload();
+				parent.contentLoaded = true;
+				parent.GetJSData(location.href, function (jsData) {
+					objectAllData = jsData;
+					InitData(jsData, FillObject);
+				})
+			};
+		}
+		
+		document.onclick=function() {
+			let rm = parent.frames['nav'].frames['tree'].document.getElementById("navRightMenu");
+			rm.style.display = "none";
+		}
+
+		document.oncontextmenu=function() {
+			let rm = parent.frames['nav'].frames['tree'].document.getElementById("navRightMenu");
+			rm.style.display = "none";
+		}
+		
+	</script>
+	<div class="cdclvBreadcrumbs cdbread">
+		<span id="template_bread"></span>
+	</div>
+	<!--content HTML starts here-->
+	<div class="cdclvSection">
+		<div class="devdocvsbody">
+			<div id="header">
+				<table width="100%" id="topTable">
+					<tr id="headerTableRow2">
+						<td align="left">
+							<span id="nsrTitle">
+								<b class="mainheaders" id="template_header">对象</b>
+							</span>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="template_content">
+				<!-- 对象简介编辑区 -->
+				<div id="template_description">
+					
+				</div>
+				<!-- 对象详细说明编辑区 -->
+				<div id="template_summary">
+					<p><b class="mainheaders">说明</b></p>
+					
+				</div>
+				<!-- 对象成员列表 -->
+				<div id="template_members">
+					<!-- 对象成员方法区 -->
+					<div id="member_functions">
+						<p><b class="mainheaders">方法</b></p>
+						<div id="vstable">
+							<table>
+								<!-- 表格头 -->
+								<thead>
+									<tr style="text-align:left;vertical-align:middle;">
+										<th class="thhead" width="6%" ></th>
+										<th width="20%" style="text-align:left;vertical-align:middle;">名称</th>
+										<th style="text-align:left;vertical-align:middle;">说明</th>
+									</tr>
+								</thead>
+								<!-- 表格体 -->
+								<tbody>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<!-- 对象成员属性区 -->
+					<div id="member_properties">
+						<p><b class="mainheaders">属性</b></p>
+						<div id="vstable">
+							<table>
+								<!-- 表格头 -->
+								<thead>
+									<tr style="text-align:left;vertical-align:middle;">
+										<th class="thhead" width="6%" ></th>
+										<th width="20%" style="text-align:left;vertical-align:middle;">名称</th>
+										<th style="text-align:left;vertical-align:middle;">说明</th>
+									</tr>
+								</thead>
+								<!-- 表格体 -->
+								<tbody>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				<!-- 对象详情区 -->
+				<div id="template_details">
+					<!-- 对象成员方法区 -->
+					<div id="functions_details">
+						<p><b class="mainheaders">成员方法</b></p>
+						<div id="funcs_details_content">
+
+						</div>
+					</div>
+					<!-- 对象成员属性区 -->
+					<div id="properties_details">
+						<p><b class="mainheaders">成员属性</b></p>
+						<div id="props_details_content">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="cdSideBox" style="display: none;">
+				<div class="cdSideBoxTop">
+					<div class="cdSideBoxTitle">请参阅</div>
+				</div>
+				<div class="cdSideBoxBody">
+					<ul id="template_refLink">
+					</ul>
+				</div>
+			</div>
+			<div class="platformRequire">
+				<div>适用环境：web</div>
+				<div id="template_platform">适用平台：windows/linux</div>
+			</div>
+		</div>
+    </div>
+
+	<!--Float HTML starts here-->
+	<div id = "floatCommit"  style = "z-index:9999;position: fixed;right:0px;top: 50%;">
+		<button class="floatButton" onclick="backToTop()" type="button" style="position: absolute;width:50px;height: 50px;border-radius: 50%;border: none;right: 0px; top: 60px;">顶部</button>
+		<button class="floatButton" onclick="backToMember()" type="button" style="position: absolute;width:50px;height: 50px;border-radius: 50%;border: none;right: 0px; top: 120px;">返回列表</button>
+	</div>
+
+</body>
+
+</html>

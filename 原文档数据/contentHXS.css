@@ -1,0 +1,2835 @@
+/* csasset date 2009-12-15 number 3 */
+/* csasset date 2009-12-15 number 2 */
+/* O14 ContentHXS.css */
+/* Owner: Pranav Kandula (kpranav@microsoft.com) */
+
+.cntHHBody
+{
+	font-family: "Microsoft YaHei", Tahoma, Arial, Verdana, Helvetica;
+}
+p.cntHHBody
+{
+	font-size: 1.1em;
+}
+.showLink {
+	text-decoration: underline;
+	color: #1890ff;
+}
+
+/* bug #482695 -Other Legal pages don't use CSS 
+note:pages are now all picking up cntArticleBody class.  this should no longer be needed.
+td#m_tdBOB {font-size:1.2em}
+span#lblTOUContent {font-size:1.2em}
+span#m_lblPrivacyBody {font-size:1.2em} */
+
+.rightNavBox
+{
+	float: right;
+	width: 30%;
+	max-width: 300px;
+	min-width: 300px;
+	height: 100%;
+	background-color: #eeeeee;
+	padding: 10px;
+}
+.centerBox
+{
+	float: left;
+	width: 70%;
+	height: 100%;
+}
+
+.cntHspace
+{
+	height: 6px;
+	border-style: none;
+	border-width: 0px;
+}
+.cntBorder1
+{
+	border: solid 1px #cccccc;
+}
+.cntSqbulletedlist
+{
+	margin: 0px;
+	margin-left: 12px;
+	padding: 0px;
+	padding-bottom: 2px;
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+}
+.cntRibbonlist
+{
+	margin: 0px;
+	margin-left: 12px;
+	padding: 0px;
+	padding-bottom: 2px;
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.0em;
+}
+.cntSqbulletedlist2
+{
+	padding-bottom: 3px;
+}
+.cntULsqbulletedlist
+{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: -6px;
+}
+.cntNewsbitOL1
+{
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-top: 25px;
+}
+.cnt0margin
+{
+	margin: 0px;
+}
+.cnt10margin
+{
+	margin: 10px;
+}
+.cnt12margin
+{
+	margin: 12px;
+}
+.cnt10mr
+{
+	margin-right: 10px;
+}
+.cnt12padding
+{
+	padding: 12px;
+	margin: 0px;
+}
+.cnt10padding
+{
+	padding: 10px;
+}
+.cnt6padding
+{
+	padding: 6px;
+	margin: 0px;
+}
+.cnt10pb
+{
+	padding-bottom: 10px;
+}
+.cnt10pt
+{
+	padding-top: 10px;
+}
+.cntpb6px
+{
+	padding-bottom: 6px;
+}
+.cntLineheight14
+{
+	line-height: 1.4em;
+}
+.cntPipelink
+{
+	line-height: 1.8em;
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	color: #999999;
+}
+.cntPipelink2
+{
+	line-height: 1.6em;
+	color: #cccccc;
+	font-size: 1.2em;
+}
+.cntPipeLinks
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	color: #999999;
+}
+.cntOrangelink
+{
+	text-decoration: none;
+	color: #f18822;
+}
+a.cntOrangelink
+{
+	text-decoration: none;
+	color: #f18822;
+}
+a:link.cntOrangelink
+{
+	text-decoration: none;
+	color: #f18822;
+}
+a:hover.cntOrangelink
+{
+	text-decoration: underline;
+	color: #f18822;
+}
+.cntModlist
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.2em;
+	color: #999999;
+	padding-bottom: 6px;
+}
+.cntUL0
+{
+	margin: 0px;
+	padding: 0px;
+}
+.cntHeadEmphasis
+{
+	padding: 0px 4px;
+	color: #999999;
+}
+.cntChevronList
+{
+	list-style-image: url(chevron-r.gif);
+}
+.cntListPadding
+{
+	padding-bottom: 6px;
+}
+
+.cntZone100table
+{
+	margin: 0px;
+	margin-bottom: 12px;
+	border: solid 1px #cccccc;
+	padding: 0px;
+}
+.cntZone100
+{
+	width: 475px;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 12px;
+	border: solid 1px #cccccc;
+}
+.cntAudienceTile
+{
+	background-color: #F1F7FE;
+	padding-left: 12px;
+	width: 431px;
+	height: 154px;
+}
+.cntAudienceTileHeadline
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 6px 0px;
+	color: #F18822;
+}
+.cntBannerlistborder
+{
+	border-top: none;
+}
+.cntBannerlist1
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.6em;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #6666cc;
+	padding: 12px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	height: 28px;
+}
+.cntBannerlist2
+{
+	color: #ffffff;
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	font-weight: bold;
+	background-color: #4444aa;
+	padding: 12px;
+	padding-top: 4.5px;
+	padding-bottom: 4.5px;
+	height: 20px;
+}
+.cntBannerlistblurb
+{
+	font-size: 1.1em;
+	color: #666666;
+}
+.cntClienthead
+{
+	font-size: 1.1em;
+	font-family: "Microsoft YaHei", Tahoma;
+	font-weight: bold;
+	color: #666666;
+	margin-bottom: 6px;
+}
+.cntClienthead2
+{
+	margin-bottom: 6px;
+}
+.cntClientheadlink
+{
+	font-size: 1.5em;
+	font-family: "Microsoft YaHei", Tahoma;
+	font-weight: bold;
+	color: #f18822;
+}
+a:link:.cntClientheadlink
+{
+	text-decoration: none;
+}
+a:hover:.cntClientheadlink
+{
+	text-decoration: underline;
+}
+.cntClientmorelinks
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	color: #0560a6;
+}
+a:link.cntClientmorelinks
+{
+	text-decoration: none;
+}
+a:hover.cntClientmorelinks
+{
+	text-decoration: underline;
+}
+.cntClientblurb
+{
+	font-size: 1.1em;
+	font-family: "Microsoft YaHei", Tahoma;
+	color: #666666;
+	line-height: 1.4em;
+}
+.cntClientline
+{
+	border: solid 1px #cccccc;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	width: 100%;
+	margin-top: 2px;
+}
+.cntClientmorehead
+{
+	font-size: 1.2em;
+	font-family: "Microsoft YaHei", Tahoma;
+	font-weight: bold;
+	color: #666666;
+	padding-bottom: 6px;
+}
+.cntClips
+{
+	background-color: #3c83d3;
+	color: #ffffff;
+}
+.cntCliptitle
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+.cntClipbar
+{
+	padding: 3px 10px;
+}
+.cntClipoptlink
+{
+	padding-top: 6px;
+	text-align: right;
+	align: right;
+	margin-right: 10px;
+}
+.cntClipoptlink a
+{
+	color: #ffffff !important;
+}
+.cntCliplink
+{
+	font-size: .9em;
+}
+.cntClipgrid
+{
+	margin: 0px;
+	border: solid 1px #cccccc;
+	border-top: none;
+}
+.cntDataPanelHead
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.6em;
+	font-weight: bold;
+	color: #333333;
+	padding-bottom: 6px;
+}
+.cntDataPanelHeadhv2
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #666666;
+	padding-bottom: 8px;
+}
+.cntDataPanelListhv2
+{
+	margin-left: 5px;
+}
+.cntDownloadlink
+{
+	color: #666666;
+	text-decoration: none;
+}
+a:hover.cntDownloadlink
+{
+	text-decoration: underline;
+}
+.cntDownloadtimes
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	color: #666666;
+	padding: 2px 12px;
+}
+.cntFeatureddownloadsdiv1
+{
+	width: 475px;
+	border: solid 1px #cccccc;
+	margin: 6px 0px;
+	padding: 0px;
+}
+.cntFeatureddownloadsHead
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.4em;
+	color: #666666;
+	font-weight: bold;
+	padding: 10px;
+	margin: 0px;
+}
+.cntFeatureddownloadstd1
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	color: #6ca108;
+	font-weight: bold;
+	padding-left: 12px;
+}
+.cntFeatureddownloadstd2
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	color: #6ca108;
+	font-weight: bold;
+}
+.cntFeatureddownloadstd3
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	color: #666666;
+	padding-left: 12px;
+}
+.cntFeatureddownloadstd4
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	color: #666666;
+}
+.cntFeatureddownloadstr
+{
+	background-color: #f2f2f2;
+}
+.cntFeaturedTmpltshead
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.3em;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 6px 8px;
+	background-color: #598975;
+}
+.cntFeaturedTmpltsmid
+{
+	padding-top: 10px;
+	border: solid 1px #cccccc;
+	border-bottom: none;
+	border-top: none;
+}
+.cntFeaturedTmpltsbtm
+{
+	padding: 8px 10px;
+	border: solid 1px #cccccc;
+	border-top: none;
+}
+.cntFeaturedTmpltimg
+{
+	border: none;
+}
+.cntFeaturedcourseoptlink
+{
+	width: 475px;
+	text-align: right;
+	font-size: .9em;
+	color: #666666;
+	padding-top: 10px;
+}
+a:link.cntFeaturedcourseoptlink
+{
+	text-decoration: none;
+	color: #666666;
+}
+.cntFactpane
+{
+	margin-bottom: 17px;
+}
+.cntFactpaneHead
+{
+	font-size: 1.6em;
+	font-weight: bold;
+	margin-top: -2px;
+	padding-top: 0px;
+	padding-bottom: -6px;
+	color: #333333;
+}
+.cntFactpaneSubhead
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.cntFactPaneBlurb
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	color: #666666;
+	padding-top: 9px;
+	margin: 0px;
+}
+.cntFocusPlateHeading
+{
+	font-size: 1.6em;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 6px 12px;
+	background-color: #ed9200;
+	margin: 0px;
+}
+.cntFocusplatetbl
+{
+	border: solid 1px #cccccc;
+	border-top: none;
+	padding: 0px;
+	margin: 0px;
+}
+.cntFocusplatetbl1
+{
+	background-color: #f2ad40;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 1px;
+}
+.cntFocusplatec1
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	padding: 12px 0px 16px 12px;
+	margin: 0px;
+}
+.cntFocusplatec3
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	padding: 12px;
+	padding-bottom: 16px;
+	margin: 0px;
+}
+.cntFocusplatec2
+{
+	height: 20px;
+	width: 19px;
+	padding: 0px;
+	margin: 0px;
+}
+.cntFocusPlateSubhead1
+{
+	font-size: 1.1em;
+	font-family: "Microsoft YaHei", Tahoma;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 1px 12px;
+	background-color: #f2ad40;
+	margin: 0px;
+}
+.cntForum1
+{
+	border: solid 1px #cccccc;
+	background-color: #ffff00;
+}
+.cntForum2
+{
+	border-style: solid;
+	border-width: 0px 1px;
+	background-color: #ccffff;
+}
+.cntForumLast
+{
+	border: solid 1px #cccccc;
+	background-color: #ffccff;
+}
+.cntHomeBottomZone
+{
+	background-color: #F1F7FE;
+}
+.cntImageitemmedia
+{
+	margin-right: 12px;
+	margin-bottom: 2px;
+}
+.cntImagepane
+{
+	padding-bottom: 12px;
+}
+.cntImagePaneHeadhv2
+{
+	margin: 8px 15px;
+	padding: 0px 12px;
+	font-size: 1.8em;
+	font-family: "Microsoft YaHei", Arial;
+	color: #11449e;
+}
+.cntImagePaneHeadline
+{
+	margin: 0px 0px;
+	font-size: 1.4em;
+	font-family: "Microsoft YaHei", Tahoma;
+	font-weight: bold;
+	padding-bottom: 9px;
+	color: #f18822 !important;
+}
+.cntImagePaneBlurb
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	color: #666666;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+.cntImagePaneSubhead
+{
+	font-size: 1.1em;
+	color: #666666;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 2px;
+}
+.cntImagepaneSubdiv
+{
+	margin-top: -3px;
+	margin-bottom: 7px;
+}
+.cntImagepaneSubv2
+{
+	font-size: 1.4em;
+	font-family: "Microsoft YaHei", Tahoma;
+	padding-bottom: 9px;
+	color: #fcad17 !important;
+	font-weight: bold;
+}
+.cntImagePaneSubheadBlurb
+{
+	font-size: 1.1em;
+	color: #0560a6;
+	padding-bottom: 2px;
+}
+.cntImagepaneblurbv2
+{
+	font-size: 1.1em;
+	font-family: "Microsoft YaHei", Tahoma;
+	color: #666666;
+	padding-bottom: 10px;
+}
+.cntImagePaneListHead
+{
+	font-size: 1.2em;
+	color: #f18822;
+}
+.cntHomepagesmboxhead
+{
+	margin-bottom: 6px;
+	font-weight: bold;
+	font-size: 1.1em;
+	color: #2b59a7 !important;
+	font-family: "Microsoft YaHei", Tahoma;
+}
+.cntHomepagesmboxul
+{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+.cntHomepagesmboxli
+{
+	margin: 0px;
+	padding: 0px;
+	margin-left: 14px;
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	line-height: 1.2em;
+	padding-bottom: 2px;
+}
+.cntImagePaneGrouplink
+{
+	border: dashed 1px #a4c0dc;
+	border-left: none;
+	border-right: none;
+	padding: 0px 6px;
+	margin: 0px;
+}
+.cntImagePanehv2link
+{
+	border: dashed 1px #a4c0dc;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	padding: 10px 0px;
+	padding-bottom: 0px;
+	margin: 10px 0px 0px 0px;
+	color: #597eb2 !important;
+	font-family: "Microsoft YaHei", Tahoma;
+}
+.cntNewsbitHead
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #666666;
+	padding-bottom: 9px;
+}
+.cntNewsbit1Head
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #666666;
+	margin-top: 0px;
+	padding-bottom: 8px;
+}
+.cntNewsbit1media
+{
+	padding-bottom: 8px;
+	margin-right: 6px;
+}
+.cntNewsbit1mediar
+{
+	margin: 3px 0px;
+	margin-right: 3px;
+	float: left;
+}
+.cntNewsbit2Head
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #666666;
+	margin-top: 0px;
+	padding-bottom: 9px;
+}
+.cntNewsbit1Blurb
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	color: #666666;
+	padding-bottom: 9px;
+}
+.cntNewsbit2Blurb
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	color: #666666;
+	padding-bottom: 9px;
+}
+.cntNewsbitSubhead
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #666666;
+	padding-bottom: 9px;
+}
+.cntPopularzone
+{
+	margin: 0px 50px;
+	padding-bottom: 25px;
+}
+.cntPopulardividers
+{
+	width: 1px;
+	height: 60px;
+	border: solid 1px #e8e8e8;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	margin: 0px;
+	padding: 0px;
+}
+.cntReportHead
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	color: #f18822;
+	font-weight: bold;
+	padding-top: 9px;
+	padding-bottom: 5px;
+	margin: 0px;
+}
+.cntReportBlurb
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	color: #666666;
+	padding-bottom: 3px;
+}
+.cntSalesPlateTitle
+{
+	font-size: 2.2em;
+	color: #f18822;
+	font-weight: bold;
+	padding-bottom: 12px;
+}
+.cntSalesPltBlurb1
+{
+	font-size: 1.1em;
+	color: #666666;
+}
+.cntSalesPltBlurb2
+{
+	font-size: 1.2em;
+	color: #666666;
+	padding-top: 12px;
+	padding-bottom: 10px;
+}
+.cntSalesPltSubhead
+{
+	color: #666666;
+	font-weight: bold;
+}
+.cntTagLeader
+{
+	width: 473px;
+	font-size: 1.8em;
+	padding: 10px 0px;
+	font-family: "Microsoft YaHei", Arial, Helvetica, Verdana;
+	color: #666666;
+}
+.cntTagLeader2
+{
+	width: 473px;
+	font-size: 1.8em;
+	padding: 10px 0px;
+	padding-top: 0px;
+	font-family: "Microsoft YaHei", Arial, Helvetica, Verdana;
+	color: #666666;
+}
+.cntTitlelistHeadline
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 2.0em;
+	padding-bottom: 12px;
+	margin: 0px;
+	color: #333333;
+}
+.cntTitlelistHeadline2
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 9px;
+	color: #363636;
+}
+.cntTitlelistSubhead
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 12px;
+	margin: 0px;
+	color: #f18822;
+}
+.cntTitlelistSubhead2
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0px;
+	padding-bottom: 9px;
+	color: #636363;
+}
+a:link.cntTitlelistSubhead2
+{
+	text-decoration: none;
+}
+a:hover.cntTitlelistSubhead2
+{
+	text-decoration: underline;
+}
+.cntTitlesplashHead
+{
+	font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+	font-size: 3.0em;
+	color: #333333;
+}
+.cntTitlesplashSubhead
+{
+	font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif; ;font-size:2.4em;color:#333333}
+.cntWideDFeat
+{
+	font-size: 1.2em;
+	background-color: #cc6600;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 6px;
+	margin: 0px;
+}
+.cntWideDouble
+{
+	margin: 0px;
+	padding: 0px;
+}
+.cntWideDFeatBx1
+{
+	padding: 9px 0px;
+}
+.cntWideDFeatBx2
+{
+	padding: 9px 0px;
+}
+.cntWideDmedia
+{
+	border: solid 1px #999999;
+	margin-right: 12px;
+	margin-top: 3px;
+}
+.cntWideDsubhead
+{
+	font-size: 1.2em;
+	color: #666666;
+	font-weight: bold;
+	padding-top: 3px;
+	margin-bottom: 6px;
+}
+.cntWideDsubhead2
+{
+	font-size: 1.1em;
+	padding-bottom: 6px;
+}
+a:link.cntWideDsubhead
+{
+	font-size: 1.2em;
+	color: #666666;
+	font-weight: bold;
+	text-decoration: none;
+}
+.cntWideDblurb
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 1.1em;
+	color: #666666;
+	padding-top: 6px;
+}
+.cntWideFeat
+{
+	padding: 6px;
+	margin-top: 4px;
+}
+.cntWideFeatHead
+{
+	margin: 0px 6px;
+	padding-bottom: 3px;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #f18822;
+}
+.cntWideFeatLink
+{
+	margin: 0px 6px;
+	font-size: 1.1em;
+	color: #666666;
+}
+.cntTextPaneSubhead
+{
+	color: #666666;
+	font-weight: bold;
+	padding: 10px 10px 4px;
+}
+.cntTextPaneBlurb
+{
+	color: #666666;
+	padding: 0px 10px 10px;
+}
+
+/*-- bulletpanel styles --*/
+.cntbulltopc div, .cntbullbotc div
+{
+	height: 1px;
+	line-height: 1px;
+	font-size: 1px;
+	overflow: hidden;
+}
+.cntbulltopl
+{
+	background-image: url(bull_l_t.gif);
+	font-size: 2px;
+	line-height: 2px;
+}
+.cntbulltopc
+{
+	border-top: 1px solid #d4d4d4;
+	background-color: #f7f7f7;
+}
+.cntbulltopc div, .cntchubotc div, .cntribtopc div
+{
+	height: 1px;
+	line-height: 1px;
+	font-size: 1px;
+	overflow: hidden;
+}
+.cntbulltopr
+{
+	background-image: url(bull_r_t.gif);
+}
+.cntbullmidl
+{
+	border-right: none;
+	border-left: 1px solid #c6c6c6;
+	background-color: #f7f7f7;
+}
+.cntbullmidl div, .cntbullmidr div
+{
+	width: 1px;
+	overflow: hidden;
+}
+.cntbullmidc
+{
+	background-image: url(bull_c_c.gif);
+	background-position: top;
+	background-repeat: repeat-x;
+	background-color: #ececec;
+}
+.cntbullmidl div, .cntbullmidr div
+{
+	width: 1px;
+	overflow: hidden;
+}
+.cntbullmidr
+{
+	border-left: none;
+	border-right: 1px solid #c6c6c6;
+	background-color: #f7f7f7;
+}
+.cntbullbotl
+{
+	background-image: url(bull_l_b.gif);
+	font-size: 2px;
+	line-height: 2px;
+	background-position: bottom left;
+}
+.cntbullbotc
+{
+	border-bottom: 1px solid #C6C6C6;
+	background-color: #f7f7f7;
+}
+.cntbullbotr
+{
+	background-image: url(bull_r_b.gif);
+	background-position: bottom right;
+}
+.cntimgpmidc
+{
+	background-color: #cfe2fd;
+}
+
+
+
+.cntIconPaneHeading
+{
+	width: 475px;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 12px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background-color: #ed9200;
+	margin: 0px;
+}
+.cntIconPaneSubhead
+{
+	color: #666666;
+	font-weight: bold;
+	padding: 10px 10px 4px;
+}
+.cntIconPaneLink
+{
+	color: #666666;
+	padding: 0px 10px;
+}
+
+/*--- Content only styles - START---*/
+.AccessCodeBox
+{
+	font-size: 1.0em;
+	font-family: "Microsoft YaHei", Tahoma,Arial,Helvetica,sans-serif;
+	width: 102px;
+	margin: 1px 0px 1px 0px;
+}
+.AccessCodeButton
+{
+	font-size: 1.0em;
+	font-family: "Microsoft YaHei", Tahoma,Arial,Helvetica,sans-serif;
+	padding: 0px 2px 0px 2px;
+	margin: 0px 0px 0px 7px;
+}
+.AttnBlu
+{
+	margin: 1px 4px 0px 0px;
+}
+.AttnOrg
+{
+	margin: 0px 6px 1px 0px;
+}
+.BlockContainer
+{
+	padding: 4px 2px 2px 7px;
+}
+.BlockHeader
+{
+	padding: 0px 0px 0px 10px;
+}
+.BlockImg
+{
+	padding: 3px 0px 0px 0px;
+}
+.BlockText
+{
+	padding: 6px 0px 0px 10px;
+}
+.BltNoPad
+{
+	padding: 7px 0px 0px 0px;
+}
+.BoxTopLeft, .BoxTopRight
+{
+	font-size: 1px;
+	line-height: 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 2px;
+}
+.BoxTopLeft
+{
+	background-image: url(crnrTL.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.BoxTopRight
+{
+	border-color: #d6d6d6;
+	border-style: solid;
+	border-width: 1px 1px 0px 0px;
+}
+.BoxTitle, .BoxDiv, .BoxCenter
+{
+	border-left: 1px solid #d6d6d6;
+	border-right: 1px solid #d6d6d6;
+}
+.BoxTitle, .BoxTopRight
+{
+	background-image: url(FtrGrd.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+.BoxCenter
+{
+	border-bottom: 1px solid #d6d6d6;
+}
+.BoxTitle
+{
+	color: #5f5f5f;
+	font-family: "Microsoft YaHei", verdana;
+	font-size: 9.5em;
+	padding: 3px 6px 2px 6px;
+}
+.BoxDiv
+{
+	background-image: url(BoxDotDiv.gif);
+	background-repeat: repeat-x;
+	height: 1px;
+}
+.BoxCenter
+{
+	padding: 6px 2px 0px 8px;
+}
+.AsstInlineDefText
+{
+	color: #660000;
+	text-decoration: none;
+}
+.RightNavBackgroundNew
+{
+	background-color: #f5f5f5;
+}
+table.Preview
+{
+	border: #678fbb 1px solid;
+	font-size: 1.0em;
+}
+.EditorialCell
+{
+	padding: 0px 10px 0px 10px;
+}
+.EditorialLeftCol
+{
+	padding: 0px 8px 0px 0px;
+}
+.EditorialRightCol
+{
+	padding: 1px 0px 0px 5px;
+}
+.FeatAppCell
+{
+	border-bottom: 1px solid #d6d6d6;
+	padding-left: 5px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+}
+.FeatAppCellNoBdr
+{
+	padding: 5px 10px 8px 5px;
+}
+.FeatAppIconCell
+{
+	border-bottom: 1px solid #d6d6d6;
+	padding-left: 4px;
+	padding-right: 0px;
+	padding-top: 9px;
+	padding-bottom: 8px;
+}
+.FeatAppNameCell
+{
+	padding: 2px 0px 1px 5px;
+}
+.FeatAppTbl
+{
+	line-height: normal;
+	font-size: 1.0em;
+	background-color: #fafafa;
+}
+.FeatAppTitleTbl
+{
+	line-height: normal;
+	font-size: 1.0em;
+	border-color: #d6d6d6;
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+}
+.FtrAppImage
+{
+	background-color: #fafafa;
+	padding: 6px 8px 6px 11px;
+}
+.FtrAppTbl
+{
+	line-height: normal;
+	font-size: 1.0em;
+	border-color: #fb8c04;
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+}
+.FtrAppTitle
+{
+	padding: 4px 6px 3px 6px;
+	color: #5f5f5f;
+	font-family: "Microsoft YaHei", verdana;
+	font-size: .95em;
+	background-color: #fff3cb;
+}
+.GrpHead
+{
+	padding: 9px 2px 2px 2px;
+}
+.InfoPaneTitle
+{
+	line-height: normal;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: "Microsoft YaHei", Arial;
+	padding: 0px 0px 0px 1px;
+}
+.InfoPaneImage
+{
+	padding: 4px 2px 2px 2px;
+}
+.InfoPaneText
+{
+	padding: 2px 8px 2px 8px;
+}
+.InfoPaneGrpHead
+{
+	padding: 9px 2px 2px 5px;
+}
+.InfoPaneGrpItm
+{
+	padding: 2px 2px 3px 6px;
+}
+table.NavTable
+{
+	border-top: #fb8c04 1px solid;
+}
+.RghtArrBlt
+{
+	padding: 6px 2px 0px 1px;
+}
+.RightNavBgCellDark
+{
+	background-color: #e4eefd;
+	border-top: 1px solid white;
+	padding-left: 6px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.RightNavBgCellDarkNew
+{
+	background-color: #f5f5f5;
+	padding: 0px 0px 0px 6px;
+}
+.RightNavBgCellDarkPad, .RightNavBgCellDarkPadNoTop
+{
+	background-color: #e4eefd;
+	padding: 7px 7px 0px 10px;
+}
+.RightNavBgCellDarkPadNew, .RightNavBgCellDarkPadNoTopNew, .RightNavBgCellDarkRedNew
+{
+	background-color: #f5f5f5;
+	padding: 7px 7px 0px 10px;
+}
+.RightNavBgCellDarkPad
+{
+	border-top: white 1px solid;
+}
+.RightNavBgCellLight
+{
+	background-color: #ecf3fe;
+	border-top: 1px solid white;
+	padding-left: 10px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.RightNavCODImage
+{
+	background-color: white;
+	border-color: #e4eefd;
+	border-style: solid;
+}
+.RightNavCODImage
+{
+	border-width: 0px 2px 0px 2px;
+	padding: 10px 0px 10px 9px;
+}
+.RightNavCODImageExt
+{
+	background-color: #cfcfcf;
+	padding: 1px 0px 0px 1px;
+}
+.RightNavCODImageInt
+{
+	border-top: 1px solid #efefef;
+	border-left: 1px solid #efefef;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	background-color: #ffffff;
+}
+.RightNavCODTitle
+{
+	border-left: 2px solid #e4eefd;
+	border-right: 2px solid #e4eefd;
+	border-top: 0px solid #e4eefd;
+	background-color: white;
+	border-bottom: 1px solid #e4eefd;
+	padding-left: 8px;
+	height: 24px;
+	padding-right: 8px;
+	padding-top: 6px;
+	padding-bottom: 5px;
+}
+.RightNavHelp
+{
+	background-color: #e4eefd;
+	padding: 10px 6px 4px 0px;
+}
+.RightNavHelpNew
+{
+	background-color: #f5f5f5;
+	padding: 10px 6px 4px 0px;
+}
+.RightNavNewBorderLeft
+{
+	border-width: 0px 0px 0px 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-color: #efefef;
+}
+.ONBodyRightSide
+{
+	border-left: 1px solid #84bfe9;
+	border-right: 0px solid #84bfe9;
+	border-top: 0px none #84bfe9;
+	border-bottom: 0px none #84bfe9;
+	background-color: #84bfe9;
+}
+.SecAlertTtl, .SecAlertTtlNoDate, .SecAlertDate, .OffUpdLink
+{
+	padding: 0px 3px 0px 3px;
+}
+.SecAlertTtl, .SecAlertTtlNoDate
+{
+	color: #ff0000;
+}
+.SecAlertImg, .SecAlertTtl, .OffUpdImg, .OffUpdLink
+{
+	vertical-align: top;
+}
+.SecAlertTtlNoDate
+{
+	vertical-align: middle;
+}
+.SupportTbl
+{
+	line-height: normal;
+	font-size: 1.0em;
+	border-top: #d6d6d6 1px solid;
+}
+.SupportItems
+{
+	padding: 0px 5px 0px 5px;
+}
+.SupportTitle
+{
+	padding: 13px 5px 7px 5px;
+}
+#TablePullQuote
+{
+	margin: 5px;
+	width: 237px;
+	float: left;
+}
+#TablePullQuoteR
+{
+	margin: 5px;
+	width: 237px;
+	float: right;
+}
+#TDPullQuote
+{
+    text-align: center;
+    font-family: "Microsoft YaHei", Segoe UI, Century Schoolbook;
+    font-size: 1.42em;
+    color: #707070;
+    font-style: italic;
+    line-height: 1.83em;
+    padding: 8px 5px 10px 5px;
+    margin: 15px 0px 15px 0px;
+    border-top-style: solid;
+    border-top-color: #cccccc;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 1px;
+}
+#TDPullQuoteM
+{
+	font-size: 1.8em;
+	line-height: 24px;
+	font-family: "Microsoft YaHei", Arial;
+	color: #999999;
+	text-align: right;
+	font-weight: bold;
+}
+#TDPullQuoteMR
+{
+	font-size: 1.8em;
+	line-height: 24px;
+	font-family: "Microsoft YaHei", Arial;
+	color: #999999;
+	text-align: left;
+	font-weight: bold;
+}
+#cntpullquotedefault
+{
+	font-size: 1.15em;
+	font-family: "Microsoft YaHei", Arial;
+	font-weight: normal;
+	color: #999999;
+}
+#cntpullquoteltblue
+{
+	font-size: 1.15em;
+	font-family: "Microsoft YaHei", Arial;
+	font-weight: normal;
+	color: #25bbe0;
+}
+#cntpullquoteblue
+{
+	font-size: 1.15em;
+	font-family: "Microsoft YaHei", Arial;
+	font-weight: normal;
+	color: #0b3788;
+}
+#cntpullquoteorange
+{
+	font-size: 1.15em;
+	font-family: "Microsoft YaHei", Arial;
+	font-weight: normal;
+	color: #d87823;
+}
+
+.Blt
+{
+	padding: 7px 0px 0px 10px;
+}
+/*---Content only styles - END---*/
+
+/*---Code and Content styles - START---*/
+table.categoryList
+{
+	border-top: 2px #ccc solid;
+	border-bottom: 2px #ccc solid;
+	font-size: 1.0em;
+}
+td.categoryList
+{
+	padding: 2px 5px 2px 5px;
+}
+ul.categoryList
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.categoryList li
+{
+	padding: 2px 0px 2px 0px;
+}
+.ACB .collapsed
+{
+	display: none;
+}
+.FeatAppTitleCell
+{
+	padding: 4px 6px 3px 6px;
+	color: #5f5f5f;
+	font-family: "Microsoft YaHei", verdana;
+	font-size: .95em;
+}
+.FooterNavCell
+{
+	background-color: #5197dd;
+	background-image: url(footerl.gif);
+	background-repeat: repeat-y;
+	background-position: left;
+	height: 32px;
+	vertical-align: middle;
+	text-align: left;
+	padding: 8px 10px 8px 10px;
+}
+table.ListTable
+{
+	border-top: #fb8c04 1px solid;
+	border-bottom: #fb8c04 1px solid;
+}
+td.ListTableTitleCell
+{
+	background-color: #fff3cb;
+	height: 19px;
+}
+ul.moreLinks
+{
+	margin: 0px 12px 0px 12px;
+	line-height: 150%;
+}
+td.moreLinks
+{
+	padding: 10px 0px 0px 0px;
+}
+
+
+div.cdclvSection
+{
+	margin: 15px 10px 0px 10px;
+}
+
+div.cntArticleBody
+{
+	font-size: 1.2em;
+	font-family: "Microsoft YaHei", Arial, Tahoma, Helvetica, sans-serif;
+	color: #555555;
+	line-height: 1.6em;
+}
+.cntArticleBody p
+{
+	padding: 0px;
+	margin: 18px 0px;
+}
+.synopsis
+{
+	font-size: 14px;
+	line-height: 18px;
+}
+.synopsisruninhead
+{
+	font-weight: bold;
+}
+.bmkTOChead
+{
+	color: #999999;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 30px 0px 0px;
+}
+p#bmkTOClinks
+{
+	padding: 0px;
+	margin: 6px 0px;
+}
+li#bmkTOClinks
+{
+	padding: 0px;
+	margin: 0px 16px;
+}
+.bmktocrule
+{
+	color: #cccccc;
+	height: 1px;
+	padding: 0px;
+	margin: 0px;
+}
+ul#bmkTOClist
+{
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	list-style-image: url(hrefIcon.gif);
+}
+#bmkTOCpara
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.trbgeven
+{
+	vertical-align: top;
+	background: #f2f2f2;
+	padding: .25em .5em;
+}
+.trbgodd
+{
+	vertical-align: top;
+	padding: .25em .5em;
+}
+.thhead
+{
+	text-align: left;
+	margin-right: 1em;
+	vertical-align: bottom;
+	background: #6b82b2;
+	color: #ffffff;
+	padding-left: .5em;
+	padding-top: .25em;
+}
+.noborder
+{
+	margin: .25em;
+	vertical-align: top;
+	padding-left: .5em;
+	padding-top: .25em;
+}
+.collapse
+{
+	font-size: 100%;
+	margin-top: 1em;
+	margin-bottom: 0em;
+	border-collapse: collapse;
+}
+.cntwarning
+{
+    border-bottom: #ffe3ce 1px solid; 
+	border-top: #ffe3ce 1px solid; 
+	border-left: none;
+	border-right: none; 
+	line-height: 1em; 
+	font-weight: normal; 
+	color: #d8370b; 
+	background: #fff8f2; 
+	margin: 20px 0px 5px 0px; 
+	padding: 1px 2px 1px 1px; 
+	text-transform: uppercase; 
+}
+.cntnote
+{
+    border-bottom: #eaeaea 1px solid;
+	border-top: #eaeaea 1px solid; 
+	border-left: none;
+	border-right: none; 
+	line-height: 1em; 
+	font-weight: normal; 
+	color: #454545; 
+	background: #f9f9f9; 
+	margin: 20px 0px 5px 0px;  
+	padding: 1px 2px 1px 1px; 
+	text-transform: uppercase;
+}
+td.cntArticleBody
+{
+	font-size: 1.2em;
+	font-family: "Microsoft YaHei", Arial, Tahoma, Helvetica, sans-serif;
+	color: #555555;
+	line-height: 1.4em;
+}
+.cntArticleBody h1
+{
+	font-size: 28px;
+	color: #7598c4;
+	padding: 15px 0px;
+	line-height: 1.1em;
+	border-bottom: 1px solid #ccc;
+	font-weight: normal;
+}
+.cntArticleBody h2
+{
+    font-size: 20px;
+    font-family: "Microsoft YaHei", Segoe UI, Arial, Verdana;
+    font-weight: normal;
+    color: #454545;
+    margin: 0px 0px 10px 0px;
+    padding: 25px 0px 10px 0px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffc200;
+    border-bottom-width: 1px;
+}
+.cntArticleBody h3
+{
+    font-size: 15px;
+    font-family: "Microsoft YaHei", Segoe UI, Arial, Verdana;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #454545;    
+    margin: 35px 0px 5px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.cntArticleBody h4
+{
+    font-size: 13px;
+    font-family: "Microsoft YaHei", Arial, Verdana;
+    font-weight: bold;
+    color: #454545;
+    margin: 20px 0px 2px 0px;
+}
+.cntArticleBody h5
+{
+    font-size: 12px;
+    font-family: "Microsoft YaHei", Arial, Verdana;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #454545;
+    margin: 20px 0px 2px 0px;
+}
+.cntArticleBody h6
+{
+    font-family: "Microsoft YaHei", Segoe UI, Arial, Verdana;
+    font-size: 11px;
+    line-height: 12px;
+    color: #454545;
+}
+
+.cntArticleBody hr
+{
+	color: #cccccc;
+	height: 1px;
+}
+.cntArticleBody .ui
+{
+	font-weight: normal;
+}
+.cntArticleBody .ov
+{
+	text-decoration: overline;
+}
+.cntArticleBody table
+{
+	margin: 1em .1em 0px;
+}
+.cntArticleBody tr
+{
+	vertical-align: top;
+}
+.cntArticleBody th
+{
+	padding: .25em .5em;
+	background-color: #6B82B2;
+	color: #ffffff;
+	margin: .25em;
+	text-align: left;
+	vertical-align: bottom;
+}
+.cntArticleBody td
+{
+	padding: .25em .5em;
+	border-bottom: 1px solid #cccccc;
+	margin: .25em;
+	vertical-align: top;
+}
+.cntArticleBody li
+{
+	padding: 0px;
+	margin: 8px 1em;
+	display: list-item;
+}
+.cntArticleBody ol
+{
+	display: inline-block;
+	list-style: none decimal outside;
+	margin: -5px 0px;
+	padding: 0px 1.5em;
+}
+.cntArticleBody ul
+{
+	display: inline-block;
+	list-style: url(blue_bullet.gif) square outside;
+	margin: -5px 0px;
+	padding: 0px 9px;
+}
+.cntArticleBody ul ol
+{
+	list-style-image: none;
+}
+.cntArticleBody ul ul
+{
+	list-style-image: url(grey_bullet.gif);
+}
+.cntArticleBody ol ul
+{
+	list-style-image: url(grey_bullet.gif);
+}
+.cntArticleBody ul ul ul
+{
+	list-style-image: url(grey_bullet.gif);
+}
+.cntArticleBody pre
+{
+	padding: 8px;
+	background-color: #EEEEEE;
+	overflow: auto;
+	min-height: 30px;
+}
+.cntArticleBody code
+{
+	font-family: "Courier New" , Courier, monospace;
+	font-size: .9em;
+	text-align: left;
+	line-height: 1.3em;
+}
+.cntArticleBody .bterm
+{
+	font-weight: bold;
+}
+.cntArticleBody .iterm
+{
+	font-style: italic;
+}
+.cntArticleBody .keycombo
+{
+	font-weight: bold;
+}
+.cntArticleBody .noborder
+{
+	border-style: none;
+}
+.cntArticleBody .rtt
+{
+	font-size: .90em;
+	text-align: right;
+}
+.cntArticleBody .runinhead
+{
+	font-weight: bold;
+}
+.cntArticleBody .tableup
+{
+	margin-top: 0px;
+}
+.cntArticleBody .ofvbaispan
+{
+	border: 1px solid;
+	border-color: windowframe;
+	padding: 0px;
+	color: windowtext;
+	display: none;
+	position: absolute;
+	z-index: +1;
+}
+.cntArticleBody .ofvbanav
+{
+	padding: 0px 0px 10px 0px;
+}
+.cntArticleBody .ofvbanavreuse, .cntArticleBody .ofvbanavunused, .cntArticleBody .ofvbanavhidden
+{
+	width: 75px;
+}
+.cntArticleBody .ofvbanavreuse
+{
+	color: #0000cc;
+	cursor: hand;
+}
+.cntArticleBody .ofvbanavunused
+{
+	color: graytext;
+}
+.cntArticleBody .ofvbanavhidden
+{
+	display: none;
+}
+.cntArticleBody .ofvbadesc
+{
+	color: windowtext;
+	display: none;
+}
+.cntArticleBody .ofvbanavex
+{
+	text-decoration: none;
+}
+.cntArticleBody B .dt1, .cntArticleBody .ind, .cntArticleBody .hang
+{
+	margin: 0px 0px 0px 2em;
+}
+.cntArticleBody .dt1
+{
+	text-indent: -2em;
+}
+.cntArticleBody .hang
+{
+	text-indent: -2em;
+}
+.cntArticleBody .figure
+{
+	font-weight: bold;
+}
+.cntArticleBody .ac
+{
+	font-size: 11px;
+	padding: 0px;
+	margin: 9px 0px 15px 0px;
+}
+.cntArticleBody .alpha
+{
+	font-size: 1.25em;
+	font-weight: bold;
+}
+.cntArticleBody .comment
+{
+	color: darkgreen;
+}
+.cntArticleBody dd
+{
+	margin: 0px 0px .6em 2em;
+}
+.cntArticleBody .def
+{
+	margin-top: 40px;
+}
+.cntArticleBody .DropDown, .cntArticleBody .HidePopUp, .cntArticleBody .Glossary, .cntArticleBody .Glossarydef
+{
+	text-decoration: none;
+}
+.cntArticleBody a:hover.DropDown, .cntArticleBody .HidePopUp:hover, .cntArticleBody .Glossary:hover
+{
+	text-decoration: underline;
+}
+.cntArticleBody a.DropDown
+{
+	color: #666666;
+	line-height: 18px;
+	font-weight: normal;
+	top: 0px;
+}
+.cntArticleBody a:active.DropDown
+{
+	color: #666666;
+	line-height: 18px;
+	font-weight: normal;
+	top: 0px;
+}
+.cntArticleBody a:visited.DropDown
+{
+	color: #666666;
+	line-height: 18px;
+	font-weight: normal;
+	top: 0px;
+}
+.cntArticleBody .Glossarydef
+{
+	color: #008C00;
+}
+.cntArticleBody .glossary
+{
+	color: #660000;
+}
+.cntArticleBody dt
+{
+	font-weight: bold;
+}
+.cntArticleBody .expanded
+{
+	font-weight: normal;
+}
+.cntArticleBody .expfav
+{
+	font-size: .8em;
+	text-align: right;
+	margin-top: -1em;
+}
+.cntArticleBody .mt
+{
+	font-weight: bold;
+	margin-top: 2em;
+}
+.cntArticleBody .ofvbasyn, .cntArticleBody .signature
+{
+	background-color: #cccccc;
+	padding: 0px;
+	width: 100%;
+}
+.cntArticleBody .4
+{
+	line-height: 4pt;
+}
+.cntArticleBody .6
+{
+	line-height: 6pt;
+}
+.cntArticleBody .omblue, .cntArticleBody .ombluedash, .cntArticleBody .omyellow, .cntArticleBody .omyellowdash
+{
+	border-color: windowframe;
+	border-width: 1px;
+	color: windowtext;
+	cursor: hand;
+	height: 16px;
+	padding: 0px 0px 0px 2px;
+	text-decoration: none;
+	width: 180px;
+}
+.cntArticleBody .omblue, .cntArticleBody .omyellow
+{
+	border-style: solid;
+	font-weight: bold;
+}
+.cntArticleBody .ombluedash
+{
+	border-style: dashed;
+}
+.cntArticleBody .omblue, .cntArticleBody .ombluedash
+{
+	background-color: #99ffff;
+}
+.cntArticleBody .omyellow
+{
+	background-color: #ffff99;
+}
+.cntArticleBody .ofvbashowdesc
+{
+	color: #0000cc;
+	cursor: hand;
+	font-size: smaller;
+	text-decoration: underline;
+}
+.AsstInlineDefText
+{
+	color: #660000;
+	text-decoration: none;
+}
+.cntArticleBody a
+{
+    color: #4685df;
+    text-decoration: none;
+}
+.cntArticleBody a:hover
+{
+	color: #4685df;
+	text-decoration: underline;
+}
+.cntArticleBody a:visited:hover
+{
+	color: #9965c3;
+	text-decoration: underline;
+}
+.cntArticleBody a:visited
+{
+	color: #9965c3;
+	text-decoration: none;
+}
+.cntArticleBody a:active
+{
+	color: #4685df;
+	text-decoration: none;
+}
+
+.cntArticleBody a[href="#backtotop"]
+{
+	font-family: "Microsoft YaHei", Arial, Verdana;
+    font-size: 10px;
+    line-height: 10px;
+    color: #3366cc;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 0px;
+    margin: 25px 0px 25px 0px;
+}
+
+.cntArticleBody .hide4ara
+{
+	display: block;
+}
+.cntArticleBody .hide4arascript
+{
+	display: block;
+}
+.cntArticleBody .hide4bidi
+{
+	display: block;
+}
+.cntArticleBody .hide4biditha
+{
+	display: block;
+}
+.cntArticleBody .hide4ea
+{
+	display: block;
+}
+.cntArticleBody .hide4eabidi
+{
+	display: block;
+}
+.cntArticleBody .hide4easa
+{
+	display: block;
+}
+.cntArticleBody .hide4easabidi
+{
+	display: block;
+}
+.cntArticleBody .hide4eng
+{
+	display: none;
+}
+.cntArticleBody .hide4enu
+{
+	display: none;
+}
+.cntArticleBody .hide4enucanfrndut
+{
+	display: none;
+}
+.cntArticleBody .hide4heb
+{
+	display: block;
+}
+.cntArticleBody .hide4hindi
+{
+	display: block;
+}
+.cntArticleBody .hide4jamuiopt
+{
+	display: block;
+}
+.cntArticleBody .hide4sa
+{
+	display: block;
+}
+.cntArticleBody .hide4sabidi
+{
+	display: block;
+}
+.cntArticleBody .somecontent
+{
+	display: none;
+}
+.cntArticleBody .collapsed
+{
+	display: none;
+}
+.cntQuizCorrect
+{
+	color: #eea752;
+}
+.cntQuizCorrectAnswer
+{
+	color: #eea752;
+}
+.cntQuizIncorrect
+{
+	color: #7598c4;
+}
+.cntQuizUnanswered
+{
+	color: #999999;
+}
+.cntQuizYourScore
+{
+	color: #eea752;
+}
+.cntHeadingColor
+{
+	color: #999999;
+}
+.cntTOCindent
+{
+	margin: 0px 18px;
+}
+a.cntvideolink2
+{
+	text-decoration: none;
+	font-size: 18px;
+}
+.cntcallout
+{
+	margin: 10px 0px;
+}
+
+/*See Also style*/
+.cdSideBoxTop
+{
+	background-color: #F4F4F4;
+	background-repeat: repeat-x;
+	color: #666666;
+	font-family: "Microsoft YaHei", Tahoma,Verdana,Arial,Helvetica,sans-serif;
+	font-size: 1.1em;
+	line-height: 1.2em;
+	font-weight: bold;
+}
+.cdSideBox
+{
+	border: 1px solid #cccccc;
+	margin: 10px 10px 10px 10px;
+}
+.cdSideBoxTitle
+{
+	padding: 4px 15px 10px 10px;
+}
+.cdSideBoxBody
+{
+	font-family: "Microsoft YaHei", Arial,sans-serif;
+	font-size: 1.2em;
+	padding: 12px 15px 6px 15px;
+	background-color: #F2F2F2;
+	background-repeat: repeat-x;
+}
+.cdSideBoxBody ul
+{
+	margin: 0;
+	padding: 0px 12px 0px 12px;
+}
+.cdSideBoxBody ul li
+{
+	padding-bottom: 3px;
+}
+
+/*--- Code and Content styles - END---*/
+
+/*Training specific style*/
+.cntTrnTable
+{
+	border: 0px;
+	cellpadding: 0px;
+	cellspacing: 0px;
+	width: 100%;
+}
+.cntTrnCrsTitle
+{
+	padding: 20px 0px;
+	font-family: "Microsoft YaHei", Arial;
+	font-size: 2.2em;
+	color: #7598c4;
+}
+.cntTrnCrsPara
+{
+	font-family: "Microsoft YaHei", Arial;
+	font-size: 14px;
+	color: #666666;
+}
+.cntTrnDottedLine
+{
+	border-style: dashed;
+	border-width: 1px;
+	border-color: #cccccc;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	margin: 0px;
+	padding: 20px;
+}
+.cntTrnBars
+{
+	padding: 9px;
+	font-family: "Microsoft YaHei", Arial;
+	font-size: 10px;
+	color: #666666;
+	font-weight: bold;
+	background-color: #e4edf9;
+	text-transform: uppercase;
+}
+.cntTrnBullet
+{
+	list-style-image: url(blue_bullet.gif);
+	margin: 0px;
+	padding: 0px;
+}
+.cntTrnList
+{
+	margin: 0px;
+	margin-left: 12px;
+	padding: 0px;
+	padding-bottom: 2px;
+}
+.cntTrnCrsLengthRating
+{
+	font-family: "Microsoft YaHei", Tahoma;
+	font-size: 10px;
+	color: #666666;
+	text-transform: uppercase;
+}
+.cntTrnText
+{
+	font-family: "Microsoft YaHei", Arial;
+	font-size: 11px;
+	color: #666666;
+	padding: 10px 0px 0px 10px;
+}
+.cntTrnPadText
+{
+	font-family: "Microsoft YaHei", Arial;
+	font-size: 11px;
+	color: #666666;
+	padding: 10px;
+}
+.cntTrnBorder
+{
+	border: 1px;
+	border-style: solid;
+	border-color: #e4edf9;
+	padding: 0px;
+}
+.cntTrnMedia
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.cntTrnCaption
+{
+	font-family: "Microsoft YaHei", Arial;
+	font-size: 11px;
+	color: #666666;
+	padding: 0px 0px 0px 10px;
+}
+.cntTrnCallout
+{
+	font-family: "Microsoft YaHei", Arial;
+	font-size: 11px;
+	color: #666666;
+	padding: 0px 0px 10px 10px;
+}
+.cntTrnPractice
+{
+	padding: 10px 0px 0px 0px;
+}
+.cntFeedback
+{
+	width: 450px;
+	background-color: #f0f4fc;
+	font-family: "Microsoft YaHei", Arial;
+	font-size: 11px;
+	color: #666666;
+	line-height: 13px;
+	border: 1px;
+	border-color: #cccccc;
+}
+.cntTrnQuickRefText
+{
+	margin-top: 0px;
+}
+
+/* VS CSS UPDATES */
+/* Applies to the entire non-scrolling header region. */
+
+div.devdocvsbody
+{
+	background-color: #ffffff;
+	font-family: "Microsoft YaHei", Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 2em;
+}
+div#header
+{
+	padding: 0px;
+	width: 100%;
+	padding-bottom: 20px;
+}
+.clientViewer
+{
+	padding: 10px 50px 30px;
+}
+
+/* Applies to both tables in the non-scrolling header region. */
+div#header table
+{
+	border-bottom-color: #c8cdde;
+	border-bottom-style: solid;
+	border-bottom-width: 0;
+	width: 100%;
+}
+
+/* Applies to cells in both tables in the non-scrolling header region. */
+div#header td
+{
+	padding-bottom: 8px;
+	vertical-align: top;
+	border-bottom: 1px solid #eee;
+}
+
+/* Applies to the running header text in the first row of the upper table in the non-scrolling header region. */
+span#runningHeaderText
+{
+	color: #000000;
+	font-size: 120%;
+}
+
+/* Applies to the topic title in the second row of the upper table in the non-scrolling header region. */
+span#nsrTitle
+{
+	color: #000000;
+	font-size: 100%;
+	font-weight: 600;
+}
+.mainheaders
+{
+	color: #000000;
+	font-size: 170%;
+	font-weight: normal;
+	padding-top: 10px;
+	display: block;
+}
+#headerTableRow1
+{
+	display:none;
+}
+#headerTableRow2
+{
+	font-size: 17.6px;
+}
+.p
+{
+	display:none;
+}
+div#vstable table
+{
+	border: 0;
+	font-size: 100%;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+div#vstable th
+{
+	position: relative;
+	background-color: #efeff7;
+	font-size: 100%;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+}
+div#vstable td
+{
+	background-color: #f7f7f7;
+	border-left: 0px solid #d5d5d3;
+	margin: 1px;
+	border-radius: 4px;
+	border: 1px solid #eee;
+	padding: 4px;
+    text-align: left;
+}
+div#vstable pre
+{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding: 16px 24px;
+	text-align: left;
+	font-size: 12px;
+	overflow: auto;
+	display: block;
+	color: #000066;
+	line-height: 1.5em;
+	text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+}
+div#vstable code
+{
+	font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+	font-size: 12px;
+	overflow: auto;
+	display: block;
+	color: #000066;
+	line-height: 1.5em;
+	text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+}
+
+div#vstable input {
+    width: 65px;
+    height: 25px;
+    border-radius: 4px;
+    border: 1px solid #000000;
+}
+div#vstable b {
+	color: #000000;
+	font-weight: bolder;
+}
+
+div#vstablenote table
+{
+	border: 0;
+	font-size: 100%;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+div#vstablenote th
+{
+	background-color: #efeff7;
+	border-bottom: 1px solid #c8cdde;
+	color: #000066;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: left;
+}
+div#vstablenote td
+{
+	background-color: #f7f7ff;
+	border-bottom: 1px solid #d5d5d3;
+	border-left: solid 1px #d5d5d3;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 1px;
+}
+
+/* ommap */
+table
+{
+	display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    border-color: grey;
+    font-variant: normal;
+}
+table.objectmap
+{
+	font-size: 100%;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+table.objectmap, tr
+{
+	vertical-align: middle;
+}
+td.ommaplegend
+{
+	margin: .25em;
+	vertical-align: middle;
+	border: 1px solid #CCCCCC;
+}
+
+/* devdocs */
+.devdocvsbody p
+{
+	margin-top: .6em;
+	margin-bottom: .6em;
+	font-size: 14px;
+	width:100%;
+	word-wrap: break-word;
+}
+.devdocvsbody pre
+{
+	font-size: 1.1em;
+	margin-bottom: .5em;
+	margin-top: .5em;
+}
+.devdocvsbody .collapsed
+{
+	display: none;
+}
+
+.devdocvsbody b {
+	color: #000000;
+	font-weight: bolder;
+}
+/*Quiz specific styles*/
+
+.cntQuizBody
+{
+	font-size: 1.2em;
+	font-family: "Microsoft YaHei", Arial, Tahoma, Helvetica, sans-serif;
+	color: #555555;
+	line-height: 1.6em;
+}
+.cntQuizBody td
+{
+	align: text-top;
+	margin: 0px;
+	padding: 0px;
+}
+.cntQuizBody tr
+{
+	margin: 0px;
+	padding: 0px;
+}
+.cntQuizBody table
+{
+	margin: 0px 0px 6px 0px;
+}
+.cntQuizBody .OMnMDivCel
+{
+	border-right: 1px solid #ccc;
+	padding: 0px;
+	margin: 0px;
+}
+.cntQuizBody .OWSBlk
+{
+	font-size: 1px;
+	height: 0px;
+	line-height: 0px;
+	margin: 0px;
+	padding: 0px;
+	border-style: none;
+	width: 0px;
+}
+.cntQuizBody .BOBHDiv
+{
+	border-bottom: 1px solid #cccccc;
+}
+
+.platformRequire
+{
+	background-color: #F4F4F4;
+	font: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding:2px;
+	border:1px solid #999;
+}
+
+.cdclvBreadcrumbs {
+    padding: 3px 10px 23px 10px;
+    color: #999;
+    font-size: 12px;
+}
+
+.cdclvBreadcrumbs a {
+    color: #999;
+}
+
+.footer {
+	margin-top: 50px;
+}
+
+.devdocvsbody a{
+	text-decoration: none;
+    color: #000000;
+	font-weight: bolder;
+}
+
+.devdocvsbody a:hover {
+	text-decoration: underline;
+}
+
+.devdocvsbody hr {
+    background-color: #eaeaea;
+    height: 1px;
+    border: 0px;
+    margin: 5px 0px;
+}
+
+.w-e-text {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", Arial, Tahoma, Helvetica, sans-serif;
+    color: #000000;
+    background-color: #fff;
+}
+
+.w-e-text table {
+    border: 0;
+    font-size: 14px;
+	width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.w-e-text table th {
+    position: relative;
+    background-color: #efeff7;
+    font-weight: bold;
+    font-size: 100%;
+    margin: 1px;
+    height: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+}
+
+.w-e-text table td {
+    background-color: #f7f7f7;
+    border-left: 0px solid #d5d5d3;
+    font-size: 100%;
+    margin: 1px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    padding: 4px;
+    text-align: left;
+}
+
+.w-e-text table input {
+    width: 65px;
+    height: 25px;
+    border-radius: 4px;
+    border: 1px solid #000000;
+}
+
+.w-e-text a {
+    text-decoration: none;
+    color: #000000;
+	font-weight: bolder;
+}
+
+.w-e-text ul{
+    display: block;
+	list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 30px;
+}
+
+.w-e-text ol{
+    display: block;
+	list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 30px;
+}
+
+.w-e-text li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    line-height: 2em;
+}
+
+.w-e-text hr {
+    background-color: #eaeaea;
+    height: 1px;
+    border: 0px;
+    margin: 5px 0px;
+}
+
+.w-e-text pre {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 16px 24px;
+}
+
+.w-e-text pre code {
+    background-color: #f7f7f7;
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+	font-size: 12px;
+	color: #000066;
+	line-height: 1.5em;
+	text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    
+}
+
+.w-e-text p {
+    margin-top: .6em;
+    margin-bottom: .6em;
+    font-size: 100%;
+    line-height: 2em;
+    white-space: normal;
+    word-break:break-all;
+}
+
+span.copy {
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 1px;
+    font-family: none;
+    width: 55px;
+    padding: 0 5px;
+    text-align: right;
+    background: url("../gif/copy.png") no-repeat 8px 2px;
+    background-size: 16px 16px;
+    cursor: pointer;
+}
+
+span.copy:hover {
+    background-color: #f7f7f7;
+    border: 1px solid#f7f7f7;
+}
+
+.w-e-text table th span.copy {
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 1px;
+    font-family: none;
+    width: 55px;
+    padding: 0 5px;
+    text-align: right;
+    background: url("../gif/copy.png") no-repeat 2px 2px;
+    background-size: 16px 16px;
+    cursor: pointer;
+}
+
+.w-e-text table th span.copy:hover {
+    background-color: #f7f7f7;
+    border: 1px solid#f7f7f7;
+}

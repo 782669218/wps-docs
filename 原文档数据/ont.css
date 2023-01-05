@@ -1,0 +1,295 @@
+/*
+	Copyright (c) Microsoft Corporation.  All rights reserved.
+*/
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	line-height: normal;
+	font-family: "Microsoft YaHei", "Segoe UI", Arial, sans-serif;
+	font-size: 66.7%;
+	min-width: 385px;
+}
+
+a {
+	color:#000000;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+img {
+	border-width: 0px;
+}
+
+
+.cdoffLoadingWrap {
+	padding: 15px;
+	margin: 100px 5px 0;
+	text-align: center;
+}
+
+.cdoffErrorTitle,
+.cdoffWelcomeTitle,
+.cdoffLoadingTitle {
+	font-size: 1.7em;
+	color: #333;
+}
+
+.cdoffLoadingTitle img {
+	vertical-align: middle;
+}
+
+.cdOffLoadingTitle em {
+	font-style: normal;
+	color: #d8370b;
+}
+
+.cdoffLoadingLink {
+	margin-top: 15px;
+	font-size: 120%;
+}
+
+.cdoffErrorWrap,
+.cdoffWelcomeWrap {
+	margin-top: 25px;
+	padding: 20px;
+}
+
+.cdoffErrorText,
+.cdoffWelcomeText {
+	margin: 10px 2px;
+	font-size: 1.2em;
+}
+
+.cdoffErrorText ul,
+.cdoffWelcomeText ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0 10px;
+}
+
+.cdoffErrorText ul {
+	list-style-type: square;
+	margin: 0 25px;
+}
+
+.cdoffErrorText li,
+.cdoffWelcomeText li {
+	font-size: .95em;
+	margin: 5px 0;
+}
+
+.cdclvAssistTitleCont,
+.cdclvTitleCont,
+.cdclv14Title {
+	min-height: 22px;
+	padding: 8px 15px 9px;
+	margin: 0 0 10px;
+	background-image: url(clv14titlebarbg.png);
+	background-position: bottom;
+	background-repeat: repeat-x;
+}
+.cdclvAssistTitle,
+.cdclvTitle,
+.cdclv14Title h1 {
+	font-weight: normal;
+	font-size: 1.9em;
+	margin: 0px;
+	padding: 0px;
+	color: #999;
+}
+
+.cdclv14Title h1 strong {
+	color: #333;
+	font-weight: normal;
+}
+.cdclv14Title h1 em {
+	font-weight: normal;
+	font-style: normal;
+	color: #d8370b;
+}
+
+.cdclvErrorPage {
+	padding: 0 20px;
+}
+.cdclvErrorMessage {
+	margin-top: 12px;
+	margin-bottom: 5px;
+	font-size: 1.2em;
+}
+
+.cdErrorTips {
+	margin: 0;
+	padding: 0 24px;
+	font-size: 1.1em;
+	list-style-image: url(bullet.png);
+	list-style-type: square;
+}
+.cdErrorTips li {
+	padding-bottom: 5px;
+}
+
+.cdclvBreadcrumbs {
+	padding: 3px 10px 23px 10px;
+	color: #999;
+	font-size: 12px;
+}
+.cdclvBreadcrumbs a {
+	color: #999;
+}
+
+.cdclv14Section {
+	margin: 0px 10px 0px 10px;
+}
+
+.cdclv14CategoryList {
+	margin: 0 0 15px 20px;
+	padding: 0;
+	list-style-type: none;
+}
+.cdclv14CategoryList div {
+	margin: 0;
+	width: 100%;
+}
+.cdclv14CategoryList li {
+	float: left;
+	font-size: 1.1em;
+	width: 145px;
+	padding: 5px 25px 0 15px;
+	margin: 0;
+	background-image: url(bullet.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+.cdclv14CategoryList li.cdclv14c2 {
+	padding-right: 0px;
+}
+
+.cdclv14Section h2 {
+	font-size: 1.5em;
+	padding: 5px;
+	margin: 10px 0px 0px;
+	font-weight: normal;
+	color: #333;
+}
+
+
+.cdclv14TopicList {
+	padding: 0;
+}
+.cdclv14Topic
+{
+	margin: 0 0 10px 10px;
+	padding: 0px 8px;
+	white-space: nowrap;
+}
+.cdclv14Topic h3
+{
+	font-weight: normal;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	margin: 0 0 3px 0;
+	padding: 0;
+	color:#0560A6;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.cdclv14Topic em
+{
+	font-size: 1.1em;
+	line-height: 1.3em;
+	font-style: normal;
+	color: #d8370b;
+	margin: 0 0 0 17px;
+	padding: 0 10px 0 0;
+}
+
+.cdclr
+{
+	clear:both;
+	height:0;
+	visibility:hidden;
+	line-height:0;
+}
+
+
+.cdPagingControl
+{
+	height: 25px;
+	line-height: 25px;
+	font-size: 1.3em;
+	text-align: right;
+}
+.cdPagingControl span,
+.cdPagingControl a.cdchrm,
+.cdPagingControl img
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+.cdPagingButton
+{
+	height: 17px;
+	width: 21px;
+	padding: 0 3.5px 0 3.5px;
+}
+.cdPagingButton img
+{
+	height: 17px;
+	width: 21px;
+}
+.cdPagingDisabledLabel
+{
+	color: #999;
+}
+.cdPagingSpacer
+{
+	width: 20px;
+}
+hr
+{
+	background-color: #eaeaea;
+	height: 1px;
+	border: 0px;
+	margin: 5px 10px;
+}
+
+.cdclv14BreathingRoom {
+	margin-top: 30px;
+}
+
+.cdclvNoResultsHeading {
+	font-size: 1.5em;
+	color: #999;
+	margin: 0 15px;
+}
+
+.cdclvNoResultsHeading em {
+	font-style: normal;
+	color: #d8370b;
+}
+
+.cdclvMoreLinksHeading {
+	margin: 10px 15px 0;
+	font-size: 1.2em;
+}
+
+.cdclvMoreLinks {
+	list-style-image: url(bullet.png);
+	margin: 4px 0 0 45px;
+	padding: 0;
+	font-size: 1.1em;
+}
+
+.floatButton {
+	background-color: #e7e7e7;
+}
+
+.floatButton:hover {
+	background-color: #008CBA;
+}
